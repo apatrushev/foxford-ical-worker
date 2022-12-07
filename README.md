@@ -35,9 +35,9 @@ pip install -r requirements.txt
 inv publish
 ```
 
-This will deploy worker instance to your cloudflare account. It will be available for the requests on address `foxford-ical-worker.<yourname>.workers.dev` and you can proceed with [click on this link](#deployed-version) instruction.
+This will deploy worker instance to your cloudflare account. It will be available for the requests on address `foxford-ical-worker.<yourname>.workers.dev` and you can proceed with [Deployed version](#deployed-version) instruction.
 
-Under the hood `inv publish` command creates isolated node js deployment, installs cloudflare wrangler toolchain and use `wrangler publish` to deploy the project.
+Under the hood `inv publish` command creates isolated node js deployment, installs cloudflare wrangler toolchain and uses `wrangler publish` to deploy the project.
 
 You can also use `inv dev` for development purpose to run local instance of worker and play with the code.
 
